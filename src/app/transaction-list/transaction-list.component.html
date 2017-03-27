@@ -1,0 +1,4 @@
+<div *ngFor="let item of transactionList">
+  <div>{{item.accountNumber}}: {{ item.amount }}</div>
+</div>
+<button (click)="addToList()">do something</button>

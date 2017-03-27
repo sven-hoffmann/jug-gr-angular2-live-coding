@@ -1,0 +1,5 @@
+[
+  {"accountNumber": "123", "amount": -10},
+  {"accountNumber": "234", "amount": -20},
+  {"accountNumber": "345", "amount": -10}
+]

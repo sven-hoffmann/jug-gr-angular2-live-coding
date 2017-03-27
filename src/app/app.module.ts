@@ -4,15 +4,25 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { TransactionListComponent } from './transaction-list/transaction-list.component';
+import { TransferComponent } from './transfer/transfer.component';
+import { RouterModule } from '@angular/router';
+import 'rxjs/add/operator/map';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TransactionListComponent,
+    TransferComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot([
+      {path: 'transaction-list', component: TransactionListComponent},
+      {path: 'transfer', component: TransferComponent},
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]

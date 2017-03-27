@@ -1,0 +1,8 @@
+<p>
+  transfer works!
+</p>
+<form>
+  <input name="accountNumber" type="number" [(ngModel)]="accountNumber" required><br/>
+  <input name="amount" type="number" [(ngModel)]="amount" required><br/>
+</form>
+<span>You are about to transfer {{ amount }}€ to {{ accountNumber }}</span>

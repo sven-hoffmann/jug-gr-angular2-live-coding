@@ -1,6 +1,7 @@
 # Bankoftrust
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
+It contains the code generated during live coding of my talk at the Java UserGroup in Görlitz.
 
 ## Development server
 
